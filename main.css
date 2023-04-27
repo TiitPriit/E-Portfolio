@@ -21,6 +21,7 @@ body {
     color: #fff;
     padding: 10px;
 }
+
 h1 {
     text-align: center;
     padding: 20px 0px;   
@@ -64,11 +65,12 @@ h1 {
 }
 
 .Contact-Education {
-    background-color: #fff;
+    color: #fff;
     padding: 50px;
-    margin-bottom: 50px;
+
     display: flex;
     justify-content: space-around;
+    background-color: #333;
 }
 
 .Skills {
@@ -121,4 +123,29 @@ h1 {
 .Button{
     text-decoration: none;
     color: #333;
+}
+
+.OK_Info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.TikTok {
+    padding-top: 50px;
+    width: 300px;
+}
+
+.TikTok h1 {
+    width: 300px;
+}
+
+.TikTok a {
+    display: flex;
+    text-decoration: none;
+    color: #333;
+}
+
+.TikTok img {
+    height: 50px;
+    padding: 11px;
 }
